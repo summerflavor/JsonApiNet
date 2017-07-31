@@ -78,6 +78,8 @@
     <Compile Include="Readme\AttributePropertyResolution\ReadmeAttributePropertyResolutionTests.cs" />
     <Compile Include="Readme\ResourceTypeResolution\ReadmeResourceTypeResolutionTests.cs" />
     <Compile Include="Readme\SingleResource\ReadmeSingleResourceTests.cs" />
+    <Compile Include="Demo.cs" />
+    <Compile Include="Session.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\JsonApiNet\JsonApiNet.csproj">
@@ -100,6 +102,8 @@
   <ItemGroup>
     <EmbeddedResource Include="Data\ValidDocumentCompoundWithNullProperty.json" />
     <EmbeddedResource Include="Data\ReadmeCompoundDocumentWithoutIncludes.json" />
+    <EmbeddedResource Include="Data\Sessionresponse.json" />
+    <EmbeddedResource Include="Data\Userresponse.json" />
     <None Include="packages.config" />
   </ItemGroup>
   <Choose>

@@ -1,0 +1,46 @@
+﻿{
+  "data": {
+    "type": "sessions",
+    "id": "6f4a701e-394e-4447-90e2-879814c7b1cd",
+    "attributes": {
+      "location-id": 18,
+      "site-id": 1
+    },
+    "relationships": {
+      "user": {
+        "links": {
+          "self": "/v1/sessions/6f4a701e-394e-4447-90e2-879814c7b1cd/relationships/user/",
+          "related": "/v1/users/795/"
+        },
+        "data": {
+          "type": "users",
+          "id": "795"
+        }
+      }
+    }
+  },
+  "included": [
+    {
+      "id": "795",
+      "type": "users",
+      "attributes": {
+        "first-name": "Rob",
+        //"last-name": "Martinek",
+        "last-login": "07/29/2017 00:06:50 AM",
+        "change-password": false,
+        "user-name": "robm",
+        //"location-selection-option": 1,
+        "location-id": null,
+        "disabled": false,
+        //"max-admin": true,
+        //"site-admin": false
+      },
+      "links": {
+        "self": "/v1/users/24"
+      }
+    }
+  ],
+  "links": {
+    "self": "/v1/sessions"
+  }
+}

@@ -11,6 +11,16 @@ namespace JsonApiNet.Tests.Data
             return ReadEmbeddedResource("ValidDocumentErrors.json");
         }
 
+        public static string ValidDocumentSessioinJson()
+        {
+            return ReadEmbeddedResource("Sessionresponse.json");
+        }
+
+        public static string ValidDocumentUserJson()
+        {
+            return ReadEmbeddedResource("Userresponse.json");
+        }
+
         public static string ValidDocumentSimpleJson()
         {
             return ReadEmbeddedResource("ValidDocumentSimple.json");

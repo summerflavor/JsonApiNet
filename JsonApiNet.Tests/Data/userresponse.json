@@ -1,0 +1,21 @@
+﻿{
+  "data": {
+    "type": "users",
+    "id": "24",
+    "attributes": {
+      "first-name": "Rob",
+      "last-name": "Martinek",
+      "last-login": "07/29/2017 00:06:50 AM",
+      "change-password": false,
+      "user-name": "robm",
+      "location-selection-option": 1,
+      "location-id": null,
+      "disabled": false,
+      "max-admin": true,
+      "site-admin": false
+    }
+  },
+  "links": {
+    "self": "/v1/users/24"
+  }
+}
